@@ -1,0 +1,33 @@
+nav.header-nav {
+  position: fixed;
+  width: 100%;
+  padding: 16px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: $navdark;
+  z-index: 999999;
+
+  a {
+    color: $white;
+    padding: 16px;
+    &:hover,
+    &.active:hover {
+      font-size: 24px;
+      font-weight: bold;
+      height: fit-content;
+      border-radius: 8px;
+      height: 48px;
+      padding: 4px 24px 0px 24px;
+      background-color: $electromagnet;
+      opacity: 0.9;
+    }
+
+    &.active {
+      font-size: 24px;
+      font-weight: bold;
+      height: fit-content;
+    }
+  }
+}
