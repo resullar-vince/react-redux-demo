@@ -1,2 +1,2 @@
 # bookbox
-Demo book shelf application using React
+Demo on building an application using React JS and Redux.
